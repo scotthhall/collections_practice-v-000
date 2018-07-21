@@ -47,3 +47,12 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  new_array = array
+  new_array.each do |word|
+    word << "s"
+  end
+  new_array[1].pop
+  new_array
+end
