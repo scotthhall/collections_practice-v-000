@@ -25,3 +25,10 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  new_array = array
+  new_array.map do |string|
+    string[2] = $
+  end
+end
