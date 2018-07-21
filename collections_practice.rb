@@ -53,5 +53,5 @@ def add_s(array)
   new_array.each do |word|
     word << "s"
   end
-  new_array
+  new_array[1]
 end
