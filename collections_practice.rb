@@ -39,3 +39,12 @@ def find_a(array)
     each[0] == "a"
   end
 end
+
+def sum_array(array)
+  sum = 0
+  array.each do |number|
+    sum += number
+  end
+end
+
+    
