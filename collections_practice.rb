@@ -19,5 +19,7 @@ end
 def swap_elements(array)
   a = array[1]
   b = array[2]
-  a, b = b, a
+  array.map do 
+    a, b = b, a
+  end
 end
